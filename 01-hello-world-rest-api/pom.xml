@@ -6,7 +6,7 @@
 
 	<groupId>com.in28minutes.rest.webservices</groupId>
 	<artifactId>01-aws-hello-world-rest-api</artifactId>
-	<version>1.0.0-RELEASE</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 	<name>aws-hello-world-rest-api</name>
@@ -84,7 +84,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>in28min/${project.name}</repository>
+					<repository>ruby4eyes/${project.name}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
